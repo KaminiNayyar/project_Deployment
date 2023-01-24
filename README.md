@@ -3,25 +3,24 @@
 ### [Assignment](assignment.md)
 
 ## Project/Goals
-(fill in your description and goals here)
+The Goal of the project is to predict the loan approvals for different range of customers.
 
 ## Hypothesis
-(fill in your hypothesis about which subset of applicants will be most likely to have their loan approved, and why. Give some examples of how you will test this hypothesis)
+The assumption is to see if people (men or women) who are more educated or make more money have higher rate of getting approved or
+people who are not graduated or make less money.
 
 ## EDA 
-(fill in what you discovered in your exploration of the dataset)
-
+The goal behind the Exploratory Data analysis was to understand the data.
 
 ## Process
-(fill in what you did during EDA, cleaning, feature engineering, modeling, deployment, testing)
-### (your step 1)
-### (your step 2)
+Firstly after understanding the data. I started cleaning, filled up with mean values for the numerics(int and float) and most common ( mode) for the object datatype. I used median for LoanAmount
+Then ran some tests and analysed the data thoroughly with bar graphs and box plots.
+For modelling I used Logistic Regression and also later tried to improve results by using grid search cv.
+For Deployment created app.py to test deploy the model on browser.
 
 ## Results/Demo
-(fill in your model's performance, details about the API you created, and (optional) a link to an live demo)
-
+With Logistic regression the accuracy is at 0.88 and pipeline is performing at 1.0
 ## Challanges 
-(discuss challenges you faced in the project)
-
+Time was the biggest challenge in completion of the project.
 ## Future Goals
-(what would you do if you had more time? are there any potential issues/biases with your model/use case?)
+I wil spend more time on finding the reason behind my accuracy being at 1 in pipeline, Seems something too good to be true.
