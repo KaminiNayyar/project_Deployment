@@ -24,4 +24,4 @@ With Logistic regression the accuracy is at 0.88 and pipeline is performing at 0
 ## Challanges 
 Time was the biggest challenge in completion of the project.
 ## Future Goals
-Time Management
+Time Management.
